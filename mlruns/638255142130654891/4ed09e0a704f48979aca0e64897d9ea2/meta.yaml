@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/4ed09e0a704f48979aca0e64897d9ea2/artifacts
+end_time: 1699119795491
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: 4ed09e0a704f48979aca0e64897d9ea2
+run_name: Gradient Boosting Classifier
+run_uuid: 4ed09e0a704f48979aca0e64897d9ea2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699119795169
+status: 3
+tags: []
+user_id: aagalvis

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/f8a48318aeb749cab785db3a3a5962b2/artifacts
+end_time: 1699119796039
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: f8a48318aeb749cab785db3a3a5962b2
+run_name: Ada Boost Classifier
+run_uuid: f8a48318aeb749cab785db3a3a5962b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699119795683
+status: 3
+tags: []
+user_id: aagalvis

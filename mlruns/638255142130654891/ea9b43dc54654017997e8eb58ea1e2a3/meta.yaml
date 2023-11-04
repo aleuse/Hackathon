@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/ea9b43dc54654017997e8eb58ea1e2a3/artifacts
+end_time: 1699119794676
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: ea9b43dc54654017997e8eb58ea1e2a3
+run_name: Extra Trees Classifier
+run_uuid: ea9b43dc54654017997e8eb58ea1e2a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699119794449
+status: 3
+tags: []
+user_id: aagalvis

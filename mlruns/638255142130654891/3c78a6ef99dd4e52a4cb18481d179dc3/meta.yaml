@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/3c78a6ef99dd4e52a4cb18481d179dc3/artifacts
+end_time: 1699119799251
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: 3c78a6ef99dd4e52a4cb18481d179dc3
+run_name: K Neighbors Classifier
+run_uuid: 3c78a6ef99dd4e52a4cb18481d179dc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699119798971
+status: 3
+tags: []
+user_id: aagalvis
