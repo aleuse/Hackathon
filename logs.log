@@ -1,0 +1,493 @@
+2023-11-04 09:20:06,387:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:20:06,387:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:20:06,387:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:20:06,387:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:23:02,534:INFO:PyCaret ClusteringExperiment
+2023-11-04 09:23:02,534:INFO:Logging name: cluster-default-name
+2023-11-04 09:23:02,534:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-11-04 09:23:02,534:INFO:version 3.1.0
+2023-11-04 09:23:02,534:INFO:Initializing setup()
+2023-11-04 09:23:02,534:INFO:self.USI: ba2c
+2023-11-04 09:23:02,534:INFO:self._variable_keys: {'X', 'memory', 'exp_name_log', 'logging_param', 'data', '_ml_usecase', '_available_plots', 'USI', 'gpu_n_jobs_param', 'idx', 'gpu_param', 'exp_id', 'log_plots_param', 'html_param', 'n_jobs_param', 'pipeline', 'seed'}
+2023-11-04 09:23:02,534:INFO:Checking environment
+2023-11-04 09:23:02,534:INFO:python_version: 3.9.12
+2023-11-04 09:23:02,534:INFO:python_build: ('main', 'Apr  4 2022 05:22:27')
+2023-11-04 09:23:02,534:INFO:machine: AMD64
+2023-11-04 09:23:02,534:INFO:platform: Windows-10-10.0.22621-SP0
+2023-11-04 09:23:02,547:INFO:Memory: svmem(total=33974353920, available=21428604928, percent=36.9, used=12545748992, free=21428604928)
+2023-11-04 09:23:02,547:INFO:Physical Core: 10
+2023-11-04 09:23:02,547:INFO:Logical Core: 12
+2023-11-04 09:23:02,547:INFO:Checking libraries
+2023-11-04 09:23:02,547:INFO:System:
+2023-11-04 09:23:02,547:INFO:    python: 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+2023-11-04 09:23:02,547:INFO:executable: c:\Users\aagalvis\AppData\Local\anaconda3\envs\maraton\python.exe
+2023-11-04 09:23:02,547:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-11-04 09:23:02,547:INFO:PyCaret required dependencies:
+2023-11-04 09:23:02,568:INFO:                 pip: 23.3
+2023-11-04 09:23:02,568:INFO:          setuptools: 68.0.0
+2023-11-04 09:23:02,568:INFO:             pycaret: 3.1.0
+2023-11-04 09:23:02,568:INFO:             IPython: 8.17.2
+2023-11-04 09:23:02,568:INFO:          ipywidgets: 8.1.1
+2023-11-04 09:23:02,568:INFO:                tqdm: 4.66.1
+2023-11-04 09:23:02,568:INFO:               numpy: 1.23.5
+2023-11-04 09:23:02,568:INFO:              pandas: 1.5.3
+2023-11-04 09:23:02,568:INFO:              jinja2: 3.1.2
+2023-11-04 09:23:02,568:INFO:               scipy: 1.10.1
+2023-11-04 09:23:02,568:INFO:              joblib: 1.3.2
+2023-11-04 09:23:02,568:INFO:             sklearn: 1.2.2
+2023-11-04 09:23:02,568:INFO:                pyod: 1.1.1
+2023-11-04 09:23:02,568:INFO:            imblearn: 0.11.0
+2023-11-04 09:23:02,568:INFO:   category_encoders: 2.6.3
+2023-11-04 09:23:02,568:INFO:            lightgbm: 4.1.0
+2023-11-04 09:23:02,568:INFO:               numba: 0.58.1
+2023-11-04 09:23:02,568:INFO:            requests: 2.31.0
+2023-11-04 09:23:02,568:INFO:          matplotlib: 3.8.1
+2023-11-04 09:23:02,568:INFO:          scikitplot: 0.3.7
+2023-11-04 09:23:02,568:INFO:         yellowbrick: 1.5
+2023-11-04 09:23:02,568:INFO:              plotly: 5.18.0
+2023-11-04 09:23:02,568:INFO:    plotly-resampler: Not installed
+2023-11-04 09:23:02,568:INFO:             kaleido: 0.2.1
+2023-11-04 09:23:02,568:INFO:           schemdraw: 0.15
+2023-11-04 09:23:02,568:INFO:         statsmodels: 0.14.0
+2023-11-04 09:23:02,568:INFO:              sktime: 0.21.1
+2023-11-04 09:23:02,568:INFO:               tbats: 1.1.3
+2023-11-04 09:23:02,568:INFO:            pmdarima: 2.0.4
+2023-11-04 09:23:02,568:INFO:              psutil: 5.9.6
+2023-11-04 09:23:02,568:INFO:          markupsafe: 2.1.3
+2023-11-04 09:23:02,568:INFO:             pickle5: Not installed
+2023-11-04 09:23:02,568:INFO:         cloudpickle: 3.0.0
+2023-11-04 09:23:02,568:INFO:         deprecation: 2.1.0
+2023-11-04 09:23:02,568:INFO:              xxhash: 3.4.1
+2023-11-04 09:23:02,568:INFO:           wurlitzer: Not installed
+2023-11-04 09:23:02,568:INFO:PyCaret optional dependencies:
+2023-11-04 09:23:02,585:INFO:                shap: Not installed
+2023-11-04 09:23:02,585:INFO:           interpret: Not installed
+2023-11-04 09:23:02,585:INFO:                umap: Not installed
+2023-11-04 09:23:02,585:INFO:     ydata_profiling: Not installed
+2023-11-04 09:23:02,585:INFO:  explainerdashboard: Not installed
+2023-11-04 09:23:02,585:INFO:             autoviz: Not installed
+2023-11-04 09:23:02,585:INFO:           fairlearn: Not installed
+2023-11-04 09:23:02,585:INFO:          deepchecks: Not installed
+2023-11-04 09:23:02,585:INFO:             xgboost: Not installed
+2023-11-04 09:23:02,585:INFO:            catboost: Not installed
+2023-11-04 09:23:02,585:INFO:              kmodes: Not installed
+2023-11-04 09:23:02,585:INFO:             mlxtend: Not installed
+2023-11-04 09:23:02,585:INFO:       statsforecast: Not installed
+2023-11-04 09:23:02,585:INFO:        tune_sklearn: Not installed
+2023-11-04 09:23:02,585:INFO:                 ray: Not installed
+2023-11-04 09:23:02,585:INFO:            hyperopt: Not installed
+2023-11-04 09:23:02,585:INFO:              optuna: Not installed
+2023-11-04 09:23:02,585:INFO:               skopt: Not installed
+2023-11-04 09:23:02,585:INFO:              mlflow: Not installed
+2023-11-04 09:23:02,585:INFO:              gradio: Not installed
+2023-11-04 09:23:02,585:INFO:             fastapi: Not installed
+2023-11-04 09:23:02,585:INFO:             uvicorn: Not installed
+2023-11-04 09:23:02,585:INFO:              m2cgen: Not installed
+2023-11-04 09:23:02,585:INFO:           evidently: Not installed
+2023-11-04 09:23:02,585:INFO:               fugue: Not installed
+2023-11-04 09:23:02,585:INFO:           streamlit: Not installed
+2023-11-04 09:23:02,585:INFO:             prophet: Not installed
+2023-11-04 09:23:02,585:INFO:None
+2023-11-04 09:23:02,585:INFO:Set up data.
+2023-11-04 09:23:02,596:INFO:Set up index.
+2023-11-04 09:23:02,596:INFO:Assigning column types.
+2023-11-04 09:23:02,598:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-11-04 09:23:02,599:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-11-04 09:23:02,599:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:02,599:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-11-04 09:23:02,599:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:02,600:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-11-04 09:23:02,600:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:02,600:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:02,600:INFO:Preparing preprocessing pipeline...
+2023-11-04 09:23:02,600:INFO:Set up simple imputation.
+2023-11-04 09:23:02,600:INFO:Set up encoding of categorical features.
+2023-11-04 09:23:02,650:INFO:Finished creating preprocessing pipeline.
+2023-11-04 09:23:02,650:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\aagalvis\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Marital Status',
+                                             'Application mode',
+                                             'Application order', 'Course',
+                                             'Daytime/evening attendance',
+                                             'Previous qualification',
+                                             'Previous qualification (grade)',
+                                             'Nacionality',
+                                             "Mother's qualification",
+                                             "Father's qualification",
+                                             "Mothe...
+                                             '(enrolled)',
+                                             'Curricular units 2nd sem '
+                                             '(evaluations)', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Target'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Target'],
+                                    transformer=OneHotEncoder(cols=['Target'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-11-04 09:23:02,650:INFO:Creating final display dataframe.
+2023-11-04 09:23:02,698:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                    42
+1        Original data shape            (4424, 37)
+2     Transformed data shape            (4424, 39)
+3           Numeric features                    36
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  ba2c
+2023-11-04 09:23:02,700:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:02,700:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:02,700:INFO:setup() successfully completed in 0.72s...............
+2023-11-04 09:23:48,404:INFO:PyCaret ClusteringExperiment
+2023-11-04 09:23:48,404:INFO:Logging name: cluster-default-name
+2023-11-04 09:23:48,404:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-11-04 09:23:48,404:INFO:version 3.1.0
+2023-11-04 09:23:48,404:INFO:Initializing setup()
+2023-11-04 09:23:48,404:INFO:self.USI: 6fd3
+2023-11-04 09:23:48,404:INFO:self._variable_keys: {'X', 'memory', 'exp_name_log', 'logging_param', 'data', '_ml_usecase', '_available_plots', 'USI', 'gpu_n_jobs_param', 'idx', 'gpu_param', 'exp_id', 'log_plots_param', 'html_param', 'n_jobs_param', 'pipeline', 'seed'}
+2023-11-04 09:23:48,404:INFO:Checking environment
+2023-11-04 09:23:48,404:INFO:python_version: 3.9.12
+2023-11-04 09:23:48,404:INFO:python_build: ('main', 'Apr  4 2022 05:22:27')
+2023-11-04 09:23:48,404:INFO:machine: AMD64
+2023-11-04 09:23:48,404:INFO:platform: Windows-10-10.0.22621-SP0
+2023-11-04 09:23:48,404:INFO:Memory: svmem(total=33974353920, available=21239164928, percent=37.5, used=12735188992, free=21239164928)
+2023-11-04 09:23:48,404:INFO:Physical Core: 10
+2023-11-04 09:23:48,404:INFO:Logical Core: 12
+2023-11-04 09:23:48,404:INFO:Checking libraries
+2023-11-04 09:23:48,404:INFO:System:
+2023-11-04 09:23:48,404:INFO:    python: 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+2023-11-04 09:23:48,404:INFO:executable: c:\Users\aagalvis\AppData\Local\anaconda3\envs\maraton\python.exe
+2023-11-04 09:23:48,404:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-11-04 09:23:48,404:INFO:PyCaret required dependencies:
+2023-11-04 09:23:48,404:INFO:                 pip: 23.3
+2023-11-04 09:23:48,404:INFO:          setuptools: 68.0.0
+2023-11-04 09:23:48,404:INFO:             pycaret: 3.1.0
+2023-11-04 09:23:48,404:INFO:             IPython: 8.17.2
+2023-11-04 09:23:48,404:INFO:          ipywidgets: 8.1.1
+2023-11-04 09:23:48,404:INFO:                tqdm: 4.66.1
+2023-11-04 09:23:48,404:INFO:               numpy: 1.23.5
+2023-11-04 09:23:48,404:INFO:              pandas: 1.5.3
+2023-11-04 09:23:48,404:INFO:              jinja2: 3.1.2
+2023-11-04 09:23:48,404:INFO:               scipy: 1.10.1
+2023-11-04 09:23:48,404:INFO:              joblib: 1.3.2
+2023-11-04 09:23:48,404:INFO:             sklearn: 1.2.2
+2023-11-04 09:23:48,404:INFO:                pyod: 1.1.1
+2023-11-04 09:23:48,404:INFO:            imblearn: 0.11.0
+2023-11-04 09:23:48,404:INFO:   category_encoders: 2.6.3
+2023-11-04 09:23:48,404:INFO:            lightgbm: 4.1.0
+2023-11-04 09:23:48,404:INFO:               numba: 0.58.1
+2023-11-04 09:23:48,404:INFO:            requests: 2.31.0
+2023-11-04 09:23:48,404:INFO:          matplotlib: 3.8.1
+2023-11-04 09:23:48,404:INFO:          scikitplot: 0.3.7
+2023-11-04 09:23:48,404:INFO:         yellowbrick: 1.5
+2023-11-04 09:23:48,404:INFO:              plotly: 5.18.0
+2023-11-04 09:23:48,404:INFO:    plotly-resampler: Not installed
+2023-11-04 09:23:48,404:INFO:             kaleido: 0.2.1
+2023-11-04 09:23:48,404:INFO:           schemdraw: 0.15
+2023-11-04 09:23:48,404:INFO:         statsmodels: 0.14.0
+2023-11-04 09:23:48,404:INFO:              sktime: 0.21.1
+2023-11-04 09:23:48,404:INFO:               tbats: 1.1.3
+2023-11-04 09:23:48,404:INFO:            pmdarima: 2.0.4
+2023-11-04 09:23:48,404:INFO:              psutil: 5.9.6
+2023-11-04 09:23:48,404:INFO:          markupsafe: 2.1.3
+2023-11-04 09:23:48,404:INFO:             pickle5: Not installed
+2023-11-04 09:23:48,404:INFO:         cloudpickle: 3.0.0
+2023-11-04 09:23:48,404:INFO:         deprecation: 2.1.0
+2023-11-04 09:23:48,404:INFO:              xxhash: 3.4.1
+2023-11-04 09:23:48,404:INFO:           wurlitzer: Not installed
+2023-11-04 09:23:48,404:INFO:PyCaret optional dependencies:
+2023-11-04 09:23:48,404:INFO:                shap: Not installed
+2023-11-04 09:23:48,404:INFO:           interpret: Not installed
+2023-11-04 09:23:48,404:INFO:                umap: Not installed
+2023-11-04 09:23:48,404:INFO:     ydata_profiling: Not installed
+2023-11-04 09:23:48,404:INFO:  explainerdashboard: Not installed
+2023-11-04 09:23:48,404:INFO:             autoviz: Not installed
+2023-11-04 09:23:48,404:INFO:           fairlearn: Not installed
+2023-11-04 09:23:48,404:INFO:          deepchecks: Not installed
+2023-11-04 09:23:48,404:INFO:             xgboost: Not installed
+2023-11-04 09:23:48,404:INFO:            catboost: Not installed
+2023-11-04 09:23:48,404:INFO:              kmodes: Not installed
+2023-11-04 09:23:48,404:INFO:             mlxtend: Not installed
+2023-11-04 09:23:48,404:INFO:       statsforecast: Not installed
+2023-11-04 09:23:48,404:INFO:        tune_sklearn: Not installed
+2023-11-04 09:23:48,404:INFO:                 ray: Not installed
+2023-11-04 09:23:48,404:INFO:            hyperopt: Not installed
+2023-11-04 09:23:48,404:INFO:              optuna: Not installed
+2023-11-04 09:23:48,404:INFO:               skopt: Not installed
+2023-11-04 09:23:48,404:INFO:              mlflow: Not installed
+2023-11-04 09:23:48,404:INFO:              gradio: Not installed
+2023-11-04 09:23:48,404:INFO:             fastapi: Not installed
+2023-11-04 09:23:48,404:INFO:             uvicorn: Not installed
+2023-11-04 09:23:48,404:INFO:              m2cgen: Not installed
+2023-11-04 09:23:48,404:INFO:           evidently: Not installed
+2023-11-04 09:23:48,404:INFO:               fugue: Not installed
+2023-11-04 09:23:48,404:INFO:           streamlit: Not installed
+2023-11-04 09:23:48,404:INFO:             prophet: Not installed
+2023-11-04 09:23:48,404:INFO:None
+2023-11-04 09:23:48,404:INFO:Set up data.
+2023-11-04 09:23:48,423:INFO:Set up index.
+2023-11-04 09:23:48,424:INFO:Assigning column types.
+2023-11-04 09:23:48,426:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-11-04 09:23:48,426:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-11-04 09:23:48,426:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:48,426:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-11-04 09:23:48,426:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:48,426:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-11-04 09:23:48,426:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:48,426:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:48,427:INFO:Preparing preprocessing pipeline...
+2023-11-04 09:23:48,427:INFO:Set up simple imputation.
+2023-11-04 09:23:48,428:INFO:Set up encoding of categorical features.
+2023-11-04 09:23:48,457:INFO:Finished creating preprocessing pipeline.
+2023-11-04 09:23:48,457:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\aagalvis\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Marital Status',
+                                             'Application mode',
+                                             'Application order', 'Course',
+                                             'Daytime/evening attendance',
+                                             'Previous qualification',
+                                             'Previous qualification (grade)',
+                                             'Nacionality',
+                                             "Mother's qualification",
+                                             "Father's qualification",
+                                             "Mothe...
+                                             '(enrolled)',
+                                             'Curricular units 2nd sem '
+                                             '(evaluations)', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Target'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Target'],
+                                    transformer=OneHotEncoder(cols=['Target'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-11-04 09:23:48,457:INFO:Creating final display dataframe.
+2023-11-04 09:23:48,504:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                    42
+1        Original data shape            (4424, 37)
+2     Transformed data shape            (4424, 39)
+3           Numeric features                    36
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  6fd3
+2023-11-04 09:23:48,507:ERROR:Data Failed with exception:
+ No module named 'ydata_profiling'
+No output to show, continue with modeling.
+2023-11-04 09:23:48,507:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:48,507:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:23:48,507:INFO:setup() successfully completed in 0.58s...............
+2023-11-04 09:28:55,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:28:55,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:28:55,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:28:55,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-04 09:28:56,454:INFO:PyCaret ClusteringExperiment
+2023-11-04 09:28:56,454:INFO:Logging name: cluster-default-name
+2023-11-04 09:28:56,454:INFO:ML Usecase: MLUsecase.CLUSTERING
+2023-11-04 09:28:56,454:INFO:version 3.1.0
+2023-11-04 09:28:56,454:INFO:Initializing setup()
+2023-11-04 09:28:56,454:INFO:self.USI: 3d1f
+2023-11-04 09:28:56,454:INFO:self._variable_keys: {'idx', 'exp_id', 'memory', 'data', 'seed', 'USI', 'log_plots_param', '_ml_usecase', 'pipeline', 'gpu_n_jobs_param', 'X', 'html_param', '_available_plots', 'exp_name_log', 'logging_param', 'n_jobs_param', 'gpu_param'}
+2023-11-04 09:28:56,454:INFO:Checking environment
+2023-11-04 09:28:56,454:INFO:python_version: 3.9.12
+2023-11-04 09:28:56,454:INFO:python_build: ('main', 'Apr  4 2022 05:22:27')
+2023-11-04 09:28:56,454:INFO:machine: AMD64
+2023-11-04 09:28:56,454:INFO:platform: Windows-10-10.0.22621-SP0
+2023-11-04 09:28:56,454:INFO:Memory: svmem(total=33974353920, available=20580831232, percent=39.4, used=13393522688, free=20580831232)
+2023-11-04 09:28:56,454:INFO:Physical Core: 10
+2023-11-04 09:28:56,454:INFO:Logical Core: 12
+2023-11-04 09:28:56,454:INFO:Checking libraries
+2023-11-04 09:28:56,454:INFO:System:
+2023-11-04 09:28:56,454:INFO:    python: 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+2023-11-04 09:28:56,454:INFO:executable: c:\Users\aagalvis\AppData\Local\anaconda3\envs\maraton\python.exe
+2023-11-04 09:28:56,454:INFO:   machine: Windows-10-10.0.22621-SP0
+2023-11-04 09:28:56,454:INFO:PyCaret required dependencies:
+2023-11-04 09:28:56,487:INFO:                 pip: 23.3
+2023-11-04 09:28:56,487:INFO:          setuptools: 68.0.0
+2023-11-04 09:28:56,487:INFO:             pycaret: 3.1.0
+2023-11-04 09:28:56,487:INFO:             IPython: 8.17.2
+2023-11-04 09:28:56,487:INFO:          ipywidgets: 8.1.1
+2023-11-04 09:28:56,487:INFO:                tqdm: 4.66.1
+2023-11-04 09:28:56,487:INFO:               numpy: 1.23.5
+2023-11-04 09:28:56,488:INFO:              pandas: 1.5.3
+2023-11-04 09:28:56,488:INFO:              jinja2: 3.1.2
+2023-11-04 09:28:56,488:INFO:               scipy: 1.10.1
+2023-11-04 09:28:56,488:INFO:              joblib: 1.3.2
+2023-11-04 09:28:56,488:INFO:             sklearn: 1.2.2
+2023-11-04 09:28:56,488:INFO:                pyod: 1.1.1
+2023-11-04 09:28:56,488:INFO:            imblearn: 0.11.0
+2023-11-04 09:28:56,488:INFO:   category_encoders: 2.6.3
+2023-11-04 09:28:56,488:INFO:            lightgbm: 4.1.0
+2023-11-04 09:28:56,488:INFO:               numba: 0.58.1
+2023-11-04 09:28:56,488:INFO:            requests: 2.31.0
+2023-11-04 09:28:56,488:INFO:          matplotlib: 3.7.3
+2023-11-04 09:28:56,488:INFO:          scikitplot: 0.3.7
+2023-11-04 09:28:56,488:INFO:         yellowbrick: 1.5
+2023-11-04 09:28:56,488:INFO:              plotly: 5.18.0
+2023-11-04 09:28:56,488:INFO:    plotly-resampler: Not installed
+2023-11-04 09:28:56,488:INFO:             kaleido: 0.2.1
+2023-11-04 09:28:56,488:INFO:           schemdraw: 0.15
+2023-11-04 09:28:56,488:INFO:         statsmodels: 0.14.0
+2023-11-04 09:28:56,488:INFO:              sktime: 0.21.1
+2023-11-04 09:28:56,488:INFO:               tbats: 1.1.3
+2023-11-04 09:28:56,488:INFO:            pmdarima: 2.0.4
+2023-11-04 09:28:56,488:INFO:              psutil: 5.9.6
+2023-11-04 09:28:56,488:INFO:          markupsafe: 2.1.3
+2023-11-04 09:28:56,488:INFO:             pickle5: Not installed
+2023-11-04 09:28:56,488:INFO:         cloudpickle: 3.0.0
+2023-11-04 09:28:56,488:INFO:         deprecation: 2.1.0
+2023-11-04 09:28:56,488:INFO:              xxhash: 3.4.1
+2023-11-04 09:28:56,488:INFO:           wurlitzer: Not installed
+2023-11-04 09:28:56,488:INFO:PyCaret optional dependencies:
+2023-11-04 09:28:56,502:INFO:                shap: Not installed
+2023-11-04 09:28:56,502:INFO:           interpret: Not installed
+2023-11-04 09:28:56,502:INFO:                umap: Not installed
+2023-11-04 09:28:56,502:INFO:     ydata_profiling: 4.6.1
+2023-11-04 09:28:56,502:INFO:  explainerdashboard: Not installed
+2023-11-04 09:28:56,502:INFO:             autoviz: Not installed
+2023-11-04 09:28:56,502:INFO:           fairlearn: Not installed
+2023-11-04 09:28:56,502:INFO:          deepchecks: Not installed
+2023-11-04 09:28:56,502:INFO:             xgboost: Not installed
+2023-11-04 09:28:56,502:INFO:            catboost: Not installed
+2023-11-04 09:28:56,502:INFO:              kmodes: Not installed
+2023-11-04 09:28:56,502:INFO:             mlxtend: Not installed
+2023-11-04 09:28:56,502:INFO:       statsforecast: Not installed
+2023-11-04 09:28:56,502:INFO:        tune_sklearn: Not installed
+2023-11-04 09:28:56,502:INFO:                 ray: Not installed
+2023-11-04 09:28:56,502:INFO:            hyperopt: Not installed
+2023-11-04 09:28:56,502:INFO:              optuna: Not installed
+2023-11-04 09:28:56,502:INFO:               skopt: Not installed
+2023-11-04 09:28:56,502:INFO:              mlflow: Not installed
+2023-11-04 09:28:56,502:INFO:              gradio: Not installed
+2023-11-04 09:28:56,502:INFO:             fastapi: Not installed
+2023-11-04 09:28:56,502:INFO:             uvicorn: Not installed
+2023-11-04 09:28:56,503:INFO:              m2cgen: Not installed
+2023-11-04 09:28:56,503:INFO:           evidently: Not installed
+2023-11-04 09:28:56,503:INFO:               fugue: Not installed
+2023-11-04 09:28:56,503:INFO:           streamlit: Not installed
+2023-11-04 09:28:56,503:INFO:             prophet: Not installed
+2023-11-04 09:28:56,503:INFO:None
+2023-11-04 09:28:56,503:INFO:Set up data.
+2023-11-04 09:28:56,504:INFO:Set up index.
+2023-11-04 09:28:56,504:INFO:Assigning column types.
+2023-11-04 09:28:56,504:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2023-11-04 09:28:56,504:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-11-04 09:28:56,504:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:28:56,504:INFO:Engine for model 'dbscan' has not been set explicitly, hence returning None.
+2023-11-04 09:28:56,504:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:28:56,504:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2023-11-04 09:28:56,504:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:28:56,504:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:28:56,504:INFO:Preparing preprocessing pipeline...
+2023-11-04 09:28:56,504:INFO:Set up simple imputation.
+2023-11-04 09:28:56,504:INFO:Set up encoding of categorical features.
+2023-11-04 09:28:56,556:INFO:Finished creating preprocessing pipeline.
+2023-11-04 09:28:56,556:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\aagalvis\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Marital Status',
+                                             'Application mode',
+                                             'Application order', 'Course',
+                                             'Daytime/evening attendance',
+                                             'Previous qualification',
+                                             'Previous qualification (grade)',
+                                             'Nacionality',
+                                             "Mother's qualification",
+                                             "Father's qualification",
+                                             "Mothe...
+                                             '(enrolled)',
+                                             'Curricular units 2nd sem '
+                                             '(evaluations)', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Target'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Target'],
+                                    transformer=OneHotEncoder(cols=['Target'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2023-11-04 09:28:56,556:INFO:Creating final display dataframe.
+2023-11-04 09:28:56,602:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                    42
+1        Original data shape            (4424, 37)
+2     Transformed data shape            (4424, 39)
+3           Numeric features                    36
+4       Categorical features                     1
+5                 Preprocess                  True
+6            Imputation type                simple
+7         Numeric imputation                  mean
+8     Categorical imputation                  mode
+9   Maximum one-hot encoding                    -1
+10           Encoding method                  None
+11                  CPU Jobs                    -1
+12                   Use GPU                 False
+13            Log Experiment                 False
+14           Experiment Name  cluster-default-name
+15                       USI                  3d1f
+2023-11-04 09:28:57,774:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:28:57,774:WARNING:
+'kmodes' is a soft dependency and not included in the pycaret installation. Please run: `pip install kmodes` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-11-04 09:28:57,774:INFO:setup() successfully completed in 1.85s...............
