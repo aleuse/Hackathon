@@ -1,0 +1,20 @@
+Imagen 1
+En el gráfico se visualiza la cantidad de estudiantes que inscribieron cierta cantidad créditos en el segundo semestre,
+se pretende observar si los estudiantes que desertaron han inscrito créditos, lo cuál es cierto, estudiantes tanto
+los que están inscritos, los que desertaron o ya se graduaron han inscrito créditos, siendo más alto los 
+estudiantes que se encuentran graduados.
+
+Imagen 2
+Se ve la cantidad de estudiantes que tienen cierto promedio, se evidencia que la mayor concentración de los estudiantes que 
+sacaron cero en el segundo semestre son los que desertaron y muy pocos están inscritos o graduados, los que están graduados
+suelen sacar mejor promedio de notas.
+
+Imagen 3
+Se evidencia el promedio de los créditos aprobados por los tres tipos de estudiantes los que desertados, los graduados y 
+los inscritos, donde se nota que todos han llegado a aprobar algunos créditos, pero los que más lo han hecho son
+los graduados y los inscritos, siendo el predominante los graduados, siendo algo evidente.
+
+Imagen 4
+Los estudiantes en general no están endeudados, se nota que los que tienen mas deuda son los que desertaron, lo cual
+puede ser un indicativo de razón por el cual ya no se encuentran inscritos o activos.
+
