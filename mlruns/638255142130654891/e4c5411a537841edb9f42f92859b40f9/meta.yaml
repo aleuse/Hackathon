@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/e4c5411a537841edb9f42f92859b40f9/artifacts
+end_time: 1699116877766
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: e4c5411a537841edb9f42f92859b40f9
+run_name: Light Gradient Boosting Machine
+run_uuid: e4c5411a537841edb9f42f92859b40f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699116875415
+status: 3
+tags: []
+user_id: aagalvis

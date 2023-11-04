@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/3cf59e18c7dc4f64a67067cdf70306e3/artifacts
+end_time: 1699116881873
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: 3cf59e18c7dc4f64a67067cdf70306e3
+run_name: Naive Bayes
+run_uuid: 3cf59e18c7dc4f64a67067cdf70306e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699116881723
+status: 3
+tags: []
+user_id: aagalvis

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/ddf6647b007e4139851f3e10db825e99/artifacts
+end_time: 1699118128359
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: ddf6647b007e4139851f3e10db825e99
+run_name: Ridge Classifier
+run_uuid: ddf6647b007e4139851f3e10db825e99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699118127962
+status: 3
+tags: []
+user_id: aagalvis

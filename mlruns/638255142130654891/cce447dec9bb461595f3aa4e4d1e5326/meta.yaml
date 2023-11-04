@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/cce447dec9bb461595f3aa4e4d1e5326/artifacts
+end_time: 1699116880682
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: cce447dec9bb461595f3aa4e4d1e5326
+run_name: SVM - Linear Kernel
+run_uuid: cce447dec9bb461595f3aa4e4d1e5326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699116880471
+status: 3
+tags: []
+user_id: aagalvis

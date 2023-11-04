@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/b4a7d3d092584036a998d0063011cafa/artifacts
+end_time: 1699116880981
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: b4a7d3d092584036a998d0063011cafa
+run_name: Decision Tree Classifier
+run_uuid: b4a7d3d092584036a998d0063011cafa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699116880818
+status: 3
+tags: []
+user_id: aagalvis

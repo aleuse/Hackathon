@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/824936af39654d399710b7056e4e881e/artifacts
+end_time: 1699116878708
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: 824936af39654d399710b7056e4e881e
+run_name: Random Forest Classifier
+run_uuid: 824936af39654d399710b7056e4e881e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699116878414
+status: 3
+tags: []
+user_id: aagalvis

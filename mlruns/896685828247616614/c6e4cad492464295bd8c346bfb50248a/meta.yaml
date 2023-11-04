@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/896685828247616614/c6e4cad492464295bd8c346bfb50248a/artifacts
+end_time: 1699116159241
+entry_point_name: ''
+experiment_id: '896685828247616614'
+lifecycle_stage: active
+run_id: c6e4cad492464295bd8c346bfb50248a
+run_name: K-Means Clustering
+run_uuid: c6e4cad492464295bd8c346bfb50248a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699116155479
+status: 3
+tags: []
+user_id: aagalvis

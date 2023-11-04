@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/a84c66042259461f89916a14ba0ed48d/artifacts
+end_time: 1699118130012
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: a84c66042259461f89916a14ba0ed48d
+run_name: Dummy Classifier
+run_uuid: a84c66042259461f89916a14ba0ed48d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699118129729
+status: 3
+tags: []
+user_id: aagalvis
