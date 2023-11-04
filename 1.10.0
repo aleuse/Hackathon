@@ -1,0 +1,5 @@
+Looking in indexes: https://artifactory.apps.bancolombia.com/api/pypi/pypi-bancolombia/simple
+Requirement already satisfied: pydantic in c:\users\aagalvis\appdata\local\anaconda3\envs\maraton\lib\site-packages (2.4.2)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\aagalvis\appdata\local\anaconda3\envs\maraton\lib\site-packages (from pydantic) (0.6.0)
+Requirement already satisfied: pydantic-core==2.10.1 in c:\users\aagalvis\appdata\local\anaconda3\envs\maraton\lib\site-packages (from pydantic) (2.10.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\aagalvis\appdata\local\anaconda3\envs\maraton\lib\site-packages (from pydantic) (4.8.0)

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/4d9286ffdaa74f18a3938a118e5a2ecd/artifacts
+end_time: 1699123435936
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: 4d9286ffdaa74f18a3938a118e5a2ecd
+run_name: Linear Discriminant Analysis
+run_uuid: 4d9286ffdaa74f18a3938a118e5a2ecd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699123435655
+status: 3
+tags: []
+user_id: aagalvis

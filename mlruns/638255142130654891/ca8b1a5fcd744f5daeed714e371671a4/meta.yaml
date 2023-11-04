@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/ca8b1a5fcd744f5daeed714e371671a4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: ca8b1a5fcd744f5daeed714e371671a4
+run_name: Session Initialized 7fb4
+run_uuid: ca8b1a5fcd744f5daeed714e371671a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699123348889
+status: 1
+tags: []
+user_id: aagalvis

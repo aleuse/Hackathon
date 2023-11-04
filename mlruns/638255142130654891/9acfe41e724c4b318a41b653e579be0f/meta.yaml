@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/maraton/mlruns/638255142130654891/9acfe41e724c4b318a41b653e579be0f/artifacts
+end_time: 1699123437943
+entry_point_name: ''
+experiment_id: '638255142130654891'
+lifecycle_stage: active
+run_id: 9acfe41e724c4b318a41b653e579be0f
+run_name: Quadratic Discriminant Analysis
+run_uuid: 9acfe41e724c4b318a41b653e579be0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699123437775
+status: 3
+tags: []
+user_id: aagalvis
